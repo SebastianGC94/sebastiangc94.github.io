@@ -174,13 +174,13 @@ body {
 
 .knowledge__container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    align-items: center;
+    grid-template-columns: 10fr 4fr;
+    gap: 4em;
+    align-items:center flex-end;
 }
 
 .knowledge__picture{
-    max-width: 500px;
+    max-width: max-content;
 }
 
 .knowledge__paragraph{
