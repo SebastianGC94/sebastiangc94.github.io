@@ -353,7 +353,7 @@ body {
 .questions__title{
     text-align: left;
     display: flex;
-    font-size: 20px;
+    font-size: 10px;
     padding: 30px 0 30px;
     cursor: pointer;
     color: var(--color-title);
