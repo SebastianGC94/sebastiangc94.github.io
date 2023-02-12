@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
+/* :root --> para guardar características y llamarlas luego desde otros lugares del código */
 :root {
     --padding-container: 100px 0;
     --color-title: #001A49;
@@ -212,8 +213,6 @@ body {
 .about__icon {
     width: 40px;
 }
-
-
 
 /* Knowledge */
 
@@ -608,7 +607,7 @@ body {
     width: 30px;
 }
 
-/* Media queries */
+/* Media queries --> para modificar tamaños de pantalla de dispositivos */
 
 @media (max-width:800px){
     .nav__menu{
@@ -826,11 +825,5 @@ body {
     .footer__submit{
         margin-right: auto;
         margin-left: 0;
-        
-
-        /* 
-        margin:0;
-        width: 100%;
-        */
-    }
+        }
 }
