@@ -120,6 +120,14 @@ body {
     text-decoration: none;
 }
 
+.nav__links:hover{
+    background: rgb(255, 255, 255);
+    transform: scale(2);
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
 .nav__menu {
     margin-left: auto;
     cursor: pointer;
@@ -167,6 +175,12 @@ body {
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
+}
+
+.cta:hover{
+    background: rgb(20, 6, 218);
+    transform: scale(1.2);
+    color: black;
 }
 
 /* About */
@@ -378,7 +392,7 @@ body {
 /* Testimony2 */
 
 .testimony2{
-    background-color: #e5e5f7;
+    background-color: #FFFFFF;
 }
 
 .testimony__container2{
