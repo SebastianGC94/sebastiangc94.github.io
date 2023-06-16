@@ -378,8 +378,8 @@ body {
 }
 
 .testimony__course{
-    background-color: royalblue;
-    color: #fff;
+    /* background-color: royalblue; */
+    color: #000;
     display: inline-block;
     padding: 5px;
 }
