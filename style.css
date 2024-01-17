@@ -536,6 +536,7 @@ html{
 .portafolio .galeria .proyecto img{
     width: 100%;
     display: block;
+    border-radius: 18px;
 }
 .portafolio .galeria .proyecto .overlay{
     position: absolute;
