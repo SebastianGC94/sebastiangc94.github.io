@@ -579,8 +579,8 @@ form {
 
 label {
     display: block; /* Muestra cada etiqueta en una nueva línea */
-    margin-bottom: 5px;
-    text-align: left;
+    margin-bottom: 15px;
+    text-align: center;
 }
 .contacto .contenido-seccion{
     max-width: 1100px;
@@ -601,7 +601,7 @@ label {
 }
 
 .contacto .col{
-    width: 50%;
+    width: 100%;
     padding: 10px;
     position: relative;
     margin: auto;
@@ -617,6 +617,7 @@ label {
     border-radius: 5px;
     font-size: 16px;
     transition: background-color 0.3s ease-in-out;
+    margin: auto;    width: 90%;
 }
 .contacto button{
 
